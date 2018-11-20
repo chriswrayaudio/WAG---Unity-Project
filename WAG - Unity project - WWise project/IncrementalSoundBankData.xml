@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{CB53A412-C6BB-4082-8B3C-5B0204C0A6F1}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3751310290" Timestamp="1541703825"/>
+				<File Name="Player" Hash="1115478335" Timestamp="1541509813"/>
+				<File Name="player" Hash="1838867320" Timestamp="1541703939"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1013024369" Timestamp="1541703939"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{2FF75B5D-D46C-4592-8C1B-6725181BEC97}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2328899528" Timestamp="1541703825"/>
+				<File Name="Player" Hash="1115478335" Timestamp="1541509813"/>
+				<File Name="player" Hash="1838867320" Timestamp="1541703940"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1437368083" Timestamp="1541703940"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{91872435-7060-4878-8400-246F2AECDB9A}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="3162305376" Timestamp="1541703825"/>
+				<File Name="Player" Hash="1115478335" Timestamp="1541509813"/>
+				<File Name="player" Hash="1838867320" Timestamp="1541703939"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1509258149" Timestamp="1541703939"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{48A08FF9-20C2-4D11-B9EA-C7F13FDE1E77}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2799563066" Timestamp="1541703825"/>
+				<File Name="Player" Hash="1115478335" Timestamp="1541509813"/>
+				<File Name="player" Hash="1838867320" Timestamp="1541703939"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="770900495" Timestamp="1541703939"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

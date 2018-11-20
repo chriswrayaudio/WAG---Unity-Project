@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<WwiseSettings>
+    <CreateWwiseGlobal>false</CreateWwiseGlobal>
+    <CreateWwiseListener>false</CreateWwiseListener>
+    <SoundbankPath>Audio/GeneratedSoundBanks/</SoundbankPath>
+    <WwiseProjectPath>../../WAG - Unity Project/WAG - Unity project - WWise project/Unity Wwise Project Adventure_WwiseProject.wproj</WwiseProjectPath>
+    <WwiseInstallationPathWindows>Q:\Program Files\Wwise\Wwise 2018.1.3.6784</WwiseInstallationPathWindows>
+    <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2017.2.0.6500/Wwise.app</WwiseInstallationPathMac>
+</WwiseSettings>

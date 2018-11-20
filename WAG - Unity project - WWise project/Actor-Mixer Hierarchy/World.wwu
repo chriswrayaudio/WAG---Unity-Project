@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{63B3204A-CEFD-4C94-9E73-350CAB156265}" SchemaVersion="89" RootDocumentID="{5367F8B3-FA3A-48B9-BDA1-43BC7FD70BFA}">
+	<AudioObjects>
+		<WorkUnit Name="World" ID="{63B3204A-CEFD-4C94-9E73-350CAB156265}" OwnerID="{5367F8B3-FA3A-48B9-BDA1-43BC7FD70BFA}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Player" ID="{C7164C57-A4F5-4BB8-96C4-11D550E24084}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

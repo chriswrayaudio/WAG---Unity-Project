@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B732B69-1B9C-4A0E-B80B-BD377AB55283}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{2B732B69-1B9C-4A0E-B80B-BD377AB55283}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="footstep_materials" ID="{F556A24C-38D9-4316-88CE-44E9F79ACAE6}">
+					<ChildrenList>
+						<Switch Name="dirt" ID="{C9756AE4-494C-4D5B-86BF-AACD8C8E9974}"/>
+						<Switch Name="grass" ID="{54FFD78F-FD0B-4A5F-931B-15053499C994}"/>
+						<Switch Name="stone" ID="{83E39638-2DC3-4CDA-B1F0-AA8E1616EE36}"/>
+						<Switch Name="wood" ID="{3D8C554C-70CE-4A4F-84DE-8C8F2A8395EC}"/>
+						<Switch Name="water" ID="{25CD1E50-9BD3-469B-9C79-80D546245E24}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="player_speed" ID="{6ED0AA0A-1A62-4BCA-BC0F-2344C93C3CD2}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="running" ID="{50DEB25F-2818-4EA3-89FB-9C756A1C1260}"/>
+						<Switch Name="sprinting" ID="{31F4DEB7-51AA-4206-B1B3-75A02A6B7D0C}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="MovementSpeed" ID="{55BF7A28-2616-44C3-AE68-15A28524B3AC}"/>
+						<Curve Name="" ID="{A5CCFC5C-DAAF-49D4-BC24-7244C914FEAA}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>67.43243</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>67.43343</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>200</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

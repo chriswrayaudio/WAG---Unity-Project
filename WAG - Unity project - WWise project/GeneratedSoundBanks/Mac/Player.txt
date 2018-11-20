@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	87017772	footstepsound			\Default Work Unit\player_footsteps\footstepsound	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	215506544	footstep_materials			\Default Work Unit\footstep_materials	
+	1062779386	player_speed			\Default Work Unit\player_speed	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	stone	footstep_materials			
+	2058049674	wood	footstep_materials			
+	2195636714	dirt	footstep_materials			
+	2654748154	water	footstep_materials			
+	4248645337	grass	footstep_materials			
+	3691594375	sprinting	player_speed			
+	3863236874	running	player_speed			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	954629715	MovementSpeed			\Default Work Unit\MovementSpeed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	705591195	footstep_test_beep	P:\GDrive\Cwaudio\Projects\Unity Tutorial Projects\Wwise Project Adventure_CW\WAG - Unity Project\WAG - Unity project - WWise project\.cache\Mac\SFX\Beep,Cyber,Buzz,Thin,Tight,Low_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Footsteps\running\dirt\footstep_test_beep		49984
+

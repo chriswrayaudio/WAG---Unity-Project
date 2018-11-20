@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{236424EF-2925-420B-982C-BBC2E3E3ECCB}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{236424EF-2925-420B-982C-BBC2E3E3ECCB}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="music_zones" ID="{27F0110B-AA70-4B16-A396-380DCBB780DD}">
+					<ChildrenList>
+						<State Name="None" ID="{42CA87B0-C0A0-441B-8A68-BD6006D9CA30}"/>
+						<State Name="music_desert" ID="{3B0A9E5B-CA3A-4C3E-8F5A-F8B57950B174}"/>
+						<State Name="music_cave" ID="{5123325C-4561-49D1-B9E5-FF1404EAD324}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

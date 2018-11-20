@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC6BB216-4D55-4EAE-B81D-2E259E01E501}" SchemaVersion="89" RootDocumentID="{4A62DA48-6C83-408C-B613-D16E21F37437}">
+	<Events>
+		<WorkUnit Name="player_footsteps" ID="{BC6BB216-4D55-4EAE-B81D-2E259E01E501}" OwnerID="{4A62DA48-6C83-408C-B613-D16E21F37437}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="footstepsound" ID="{D6AD6B79-323A-4F94-93C1-78127AB99A00}">
+					<ChildrenList>
+						<Action Name="" ID="{EB8D0045-DECD-4D8D-A829-2EA09F24431C}" ShortID="910166287">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{B62E297C-63CA-4E24-AFB3-351F11036324}" WorkUnitID="{56107A55-5BE4-4217-BA77-9E4150211A51}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

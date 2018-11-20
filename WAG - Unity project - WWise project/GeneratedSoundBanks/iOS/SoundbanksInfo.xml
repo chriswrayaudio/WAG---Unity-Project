@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>P:\GDrive\Cwaudio\Projects\Unity Tutorial Projects\Wwise Project Adventure_CW\WAG - Unity Project\WAG - Unity project - WWise project\</ProjectRoot>
+		<SourceFilesRoot>P:\GDrive\Cwaudio\Projects\Unity Tutorial Projects\Wwise Project Adventure_CW\WAG - Unity Project\WAG - Unity project - WWise project\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>P:\GDrive\Cwaudio\Projects\Unity Tutorial Projects\Wwise Project Adventure_CW\WAG - Unity Project\WAG - Unity project - WWise project\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>P:\GDrive\Cwaudio\Projects\Unity Tutorial Projects\Wwise Project Adventure_CW\WAG - Unity Project\WAG - Unity project - WWise project\GeneratedSoundBanks\iOS</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1069431850" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\player</ObjectPath>
+			<ShortName>player</ShortName>
+			<Path>player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="87017772" Name="footstepsound" ObjectPath="\Events\Default Work Unit\player_footsteps\footstepsound"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="705591195" Language="SFX">
+					<ShortName>Beep,Cyber,Buzz,Thin,Tight,Low.wav</ShortName>
+					<Path>SFX\Beep,Cyber,Buzz,Thin,Tight,Low_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

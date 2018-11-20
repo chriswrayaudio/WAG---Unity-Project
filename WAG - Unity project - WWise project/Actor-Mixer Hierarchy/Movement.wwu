@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56107A55-5BE4-4217-BA77-9E4150211A51}" SchemaVersion="89" RootDocumentID="{5367F8B3-FA3A-48B9-BDA1-43BC7FD70BFA}">
+	<AudioObjects>
+		<WorkUnit Name="Movement" ID="{56107A55-5BE4-4217-BA77-9E4150211A51}" OwnerID="{C7164C57-A4F5-4BB8-96C4-11D550E24084}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="Footsteps" ID="{B62E297C-63CA-4E24-AFB3-351F11036324}" ShortID="81441124">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="player_speed" ID="{6ED0AA0A-1A62-4BCA-BC0F-2344C93C3CD2}" WorkUnitID="{2B732B69-1B9C-4A0E-B80B-BD377AB55283}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="running" ID="{654B3FE8-5089-4514-84F7-80347E92FA86}" ShortID="237174779">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="footstep_materials" ID="{F556A24C-38D9-4316-88CE-44E9F79ACAE6}" WorkUnitID="{2B732B69-1B9C-4A0E-B80B-BD377AB55283}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="dirt" ID="{E0DAA94D-D0D7-40D8-A7DB-4984992C2BB0}" ShortID="968462139">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="footstep_test_beep" ID="{64A8D088-ED57-4EC4-8B81-2A0CBD4E0842}" ShortID="299024884">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beep,Cyber,Buzz,Thin,Tight,Low" ID="{C983DD0F-27FF-4D38-9C09-3CF8ABE9DFA7}" ShortID="705591195">
+													<Language>SFX</Language>
+													<AudioFile>Beep,Cyber,Buzz,Thin,Tight,Low.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Beep,Cyber,Buzz,Thin,Tight,Low" ID="{C983DD0F-27FF-4D38-9C09-3CF8ABE9DFA7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="dirt" ID="{E0DAA94D-D0D7-40D8-A7DB-4984992C2BB0}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="dirt" ID="{C9756AE4-494C-4D5B-86BF-AACD8C8E9974}"/>
+										<ItemList>
+											<ItemRef Name="dirt" ID="{E0DAA94D-D0D7-40D8-A7DB-4984992C2BB0}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="sprinting" ID="{DABECE0A-A98C-4A7F-9BD9-197D016F54D4}" ShortID="811566772">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="footstep_materials" ID="{F556A24C-38D9-4316-88CE-44E9F79ACAE6}" WorkUnitID="{2B732B69-1B9C-4A0E-B80B-BD377AB55283}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="dirt" ID="{9BEB862A-80AB-4C68-BFDA-054BE80B4447}" ShortID="900087480">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="footstep_test_beep" ID="{BBFD8B49-C06C-4B46-83EF-6B7FD5ED018E}" ShortID="80250727">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A93F3269-23A2-4AB7-8B72-1602291C8D92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AF48665-6BEC-4ADE-8D14-C88A94F9F5F8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beep,Cyber,Buzz,Thin,Tight,Low" ID="{12D59D43-E8E0-4B95-8B83-AD021B929473}" ShortID="746713134">
+													<Language>SFX</Language>
+													<AudioFile>Beep,Cyber,Buzz,Thin,Tight,Low.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="705591195"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Beep,Cyber,Buzz,Thin,Tight,Low" ID="{12D59D43-E8E0-4B95-8B83-AD021B929473}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="dirt" ID="{9BEB862A-80AB-4C68-BFDA-054BE80B4447}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="dirt" ID="{C9756AE4-494C-4D5B-86BF-AACD8C8E9974}"/>
+										<ItemList>
+											<ItemRef Name="dirt" ID="{9BEB862A-80AB-4C68-BFDA-054BE80B4447}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="sprinting" ID="{DABECE0A-A98C-4A7F-9BD9-197D016F54D4}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="running" ID="{654B3FE8-5089-4514-84F7-80347E92FA86}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="running" ID="{50DEB25F-2818-4EA3-89FB-9C756A1C1260}"/>
+								<ItemList>
+									<ItemRef Name="running" ID="{654B3FE8-5089-4514-84F7-80347E92FA86}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="sprinting" ID="{31F4DEB7-51AA-4206-B1B3-75A02A6B7D0C}"/>
+								<ItemList>
+									<ItemRef Name="sprinting" ID="{DABECE0A-A98C-4A7F-9BD9-197D016F54D4}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
